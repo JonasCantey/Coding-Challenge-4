@@ -30,3 +30,14 @@ while (stock >= 0) {
     stock--;                                        //is greater than 0 will subtract 1 and log the decrement.
 }
 
+//Task 4
+console.log("Task 4")
+
+responses = 0                       //Declared responses variable and set = 0
+
+do {                                //Created a do-while loop that logs each increment and increases by 1
+    console.log(`Responses:${responses}`);  //while responses is less than or equal to 3
+    responses++;
+    
+
+} while (responses <=3);
