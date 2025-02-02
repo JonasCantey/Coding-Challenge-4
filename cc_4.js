@@ -70,3 +70,12 @@ orders.forEach((order, index) =>  { //Created a forEach loop that goes through t
     console.log(`Order Number: ${index+1}: ${order}`);
 });
 
+//Task 8
+console.log("Task 8")
+
+let amount = 7800                   //Declared amount
+let taxRate = 0.07                  //Declared tax rate
+
+let calculateTax = () => amount * taxRate;  //Function to calculate tax
+let tax = calculateTax()                    //Call the function to variable tax
+console.log(`Tax amount: ${tax}`);
