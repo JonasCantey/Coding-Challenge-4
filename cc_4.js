@@ -79,3 +79,11 @@ let taxRate = 0.07                  //Declared tax rate
 let calculateTax = () => amount * taxRate;  //Function to calculate tax
 let tax = calculateTax()                    //Call the function to variable tax
 console.log(`Tax amount: ${tax}`);
+
+//Task 9
+console.log("Task 9")
+
+let applyDiscount = (price, discountRate) => price * 1 - discountRate;  //Created function that multiplies price * 1 - the discount rate
+let disco = applyDiscount(4325, 0.25);      //Called the function to variable disco
+
+console.log(`Discounted price: ${disco}`);  
