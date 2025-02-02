@@ -51,3 +51,12 @@ for (let property in employee) {        //Created a for..in loop that console lo
     console.log(`${property}: ${employee[property]}`);
 }
 
+
+//Task 6
+console.log("Task 6")
+
+let products = ["Laptop", "Mouse", "Keyboard"]  //Declared array of products
+
+for (let product of products) {                 //Created a for..of loop to print each product on different lines
+    console.log(`Product: ${product}`);
+}
