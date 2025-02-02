@@ -20,3 +20,13 @@ for (let i=0; i < sales.length; i++) {      //For loop that lays out the followi
 }
 
 console.log(`Total Revenue: $${totalSales}`); //Template literal using the totalSales variable.
+
+//Task 3
+console.log("Task 3")
+
+let stock = 10                                  //Declared variable stock = 10
+while (stock >= 0) {                          
+    console.log(`Inventory depleting: ${stock}`);      //Created a while loop which as long as stock
+    stock--;                                        //is greater than 0 will subtract 1 and log the decrement.
+}
+
