@@ -41,3 +41,13 @@ do {                                //Created a do-while loop that logs each inc
     
 
 } while (responses <=3);
+
+//Task 5
+console.log("Task 5")
+
+let employee = { name: "Alice", position: "Manager", salary: 75000 };   //Declared employee object
+
+for (let property in employee) {        //Created a for..in loop that console logs each property on different lines
+    console.log(`${property}: ${employee[property]}`);
+}
+
