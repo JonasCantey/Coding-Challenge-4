@@ -78,12 +78,23 @@ let taxRate = 0.07                  //Declared tax rate
 
 let calculateTax = () => amount * taxRate;  //Function to calculate tax
 let tax = calculateTax()                    //Call the function to variable tax
-console.log(`Tax amount: ${tax}`);
+console.log(`Tax amount: $${tax}`);
 
 //Task 9
 console.log("Task 9")
 
 let applyDiscount = (price, discountRate) => price * 1 - discountRate;  //Created function that multiplies price * 1 - the discount rate
-let disco = applyDiscount(4325, 0.25);      //Called the function to variable disco
+let disco = applyDiscount(4325, 0.25);      //Called the function to variable disco and input values of price 4325 and discount rate of 0.25
 
-console.log(`Discounted price: ${disco}`);  
+console.log(`Discounted price: $${disco}`);  
+
+//Task 10
+console.log("Task 10")
+
+let calculatePoints = (pAmount) => {    //Created a function that declares a new variable points as 
+    points = pAmount / 10               //pAmount/10. I then included a math.round on the points 
+    return Math.round(points)}          //in order to not give out something like 14.6667 points. 
+                                        //This ensures that one will always get a nice full integer with no decimals.
+let earnedPoints = calculatePoints(124)     //Called the function on a variable declared as earnedPoints
+
+console.log(`You have earned ${earnedPoints} points!`)
