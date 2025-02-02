@@ -60,3 +60,13 @@ let products = ["Laptop", "Mouse", "Keyboard"]  //Declared array of products
 for (let product of products) {                 //Created a for..of loop to print each product on different lines
     console.log(`Product: ${product}`);
 }
+
+//Task 7
+console.log("Task 7")
+
+let orders = [803, 804, 805]        //Declared array of three order numbers
+
+orders.forEach((order, index) =>  { //Created a forEach loop that goes through the index and console logs each value in array
+    console.log(`Order Number: ${index+1}: ${order}`);
+});
+
